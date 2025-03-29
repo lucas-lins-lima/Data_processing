@@ -3,7 +3,7 @@ Esta base de dados e análises foi criada para simular uma pesquisa de mercado s
 
 **Tamanho da amostra:** 300 entrevistados
 
-# Variáveis e Codificações**
+# Variáveis e Codificações
 
 **1. ID_respondente**
 
