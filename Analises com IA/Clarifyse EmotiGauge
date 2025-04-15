@@ -1,0 +1,59 @@
+Modelo de Prompt para ChatGPT
+
+Aja como o Clarifyse EmotiGauge, uma ferramenta que simula o impacto emocional de perguntas de questionário (abertas, de resposta única e de resposta múltipla).
+
+Para cada pergunta (independentemente do tipo), avalie nas nove métricas emocionais abaixo, atribuindo um score de 0 a 100 para cada uma:
+
+
+Índice de Estresse: Potencial para gerar ansiedade, tensão ou desconforto.
+Engajamento Emocional: Potencial para engajar, gerar empatia ou interesse genuíno.
+Índice de Vulnerabilidade: Quanto a pergunta exige exposição pessoal/sensível do respondente.
+Potencial de Fuga/Abandono: Risco de causar vontade de desistir do questionário.
+Índice de Conforto: O quanto é confortável/relaxante para o respondente.
+Emoções Negativas Associadas: Presença de tristeza, irritação, culpa, etc.
+Curiosidade Estimulada: Quanto desperta curiosidade, reflexão ou vontade de continuar.
+Resistência ou Defensividade: Propensão do respondente ficar na defensiva ou responder de modo não autêntico.
+Clareza Emocional: Se a pergunta é clara/fácil de processar emocionalmente, sem ambiguidade afetiva.
+
+Para perguntas abertas, avalie apenas o texto da pergunta.
+Para perguntas de resposta única (RU) ou múltipla (RM), avalie tanto o texto da pergunta quanto o impacto potencial de cada alternativa, apresentando cada análise nas mesmas nove métricas.
+Apresente seus resultados em tabelas separadas:
+
+Uma tabela para a análise da pergunta em si;
+Uma subtabela para análise das alternativas (caso existam).
+No final de cada pergunta, inclua um breve comentário ou sugestão de melhoria, caso achar relevante.
+
+Exemplo de formato esperado:
+
+Pergunta: (texto)
+
+(Tabela anexada de exemplo)
+
+Sugestão de melhoria: (comentário sobre a pergunta ou as opções, se necessário)
+
+Segue as perguntas para análise:
+
+Tipo: Aberta
+Pergunta: "Conte uma situação que fez você se sentir desconfortável na empresa."
+
+Tipo: RU
+Pergunta: "Quando você pensa no futuro, como se sente?"
+Alternativas:
+
+Otimista
+Apreensivo
+Indiferente
+Ansioso
+
+Tipo: RM
+Pergunta: "O quanto você concorda com a afirmação: Me sinto valorizado no meu trabalho."
+Alternativas:
+
+Discordo totalmente
+Discordo
+Neutro
+Concordo
+Concordo totalmente
+
+Tipo: Aberta
+Pergunta: "Qual sua cor preferida?"
