@@ -36,3 +36,13 @@ Sumarize fluxos quebrados, perguntas armadilha, problemas detectados.
 Sugestões de melhoria:
 
 Lista as principais recomendações para o questionário ficar mais claro, lógico e robusto.
+
+
+Exemplo de questionario no prompt:
+
+1.Qual sua idade?
+"Se o(a) participante responder "não" na pergunta 2, vá para a pergunta 5."
+2.Você já trabalhou antes de completar 15 anos? (Sim/Não)
+3.Quantas pessoas moram com você?
+4.Se respondeu "Não" na anterior, explique sua experiência de trabalho antes dos 15 anos.
+
